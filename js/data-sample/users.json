@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "5c8a1dfa2f8fb814b56fa181",
+    "name": "Jason Bourne",
+    "email": "Jason@example.com",
+    "password": "$1a$12$Jb/DJSHN.ZpnPMu19xfe.NRh5ntE2LzNMNcsty05QWwRbmFFVMKO"
+  },
+  {
+    "_id": "5c8a1e1a2f8fb814b56fa182",
+    "name": "Tyler Durden",
+    "email": "Tyler@example.com",
+    "password": "$3a$12$Jb/ILhdDV.ZpnPMu19xfe.NRh5ntE2LDonmcsty05QWwRbmFFVMKO"
+  },
+  {
+    "_id": "5c8a1ec62f8fb814b56fa183",
+    "name": "Mary Jane Watson",
+    "email": "Mary@example.com",
+    "password": "$4a$12$Jb/DJSHN.ZpnPMu19xfe.NRh5ntE2LzNMNcsty05QWwRbmFFVMKO"
+  },
+  {
+    "_id": "5c8a1f292f8fb814b56fa184",
+    "name": "Rick Sanchez",
+    "email": "rick@example.com",
+    "password": "$5a$12$Jb/DJSHN.ZpnPMu19xfe.NRh5ntE2LzNMNcsty05QWwRbmFFVMKO"
+  },
+  {
+    "_id": "5c8a1f4e2f8fb814b56fa185",
+    "name": "Lara Croft",
+    "email": "Lara@example.com",
+    "password": "$6a$12$Jb/DJSHN.ZpnPMu19xfe.NRh5ntE2LzNMNcsty05QWwRbmFFVMKO"
+  },
+  {
+    "_id": "5c8a21d02f8fb814b56fa189",
+    "name": "Elastagirl",
+    "email": "elastagirl@example.com",
+    "password": "$7a$12$Jb/DJSHN.ZpnPMu19xfe.NRh5ntE2LzNMNcsty05QWwRbmFFVMKO"
+  },
+  {
+    "_id": "5c8a21f22f8fb814b56fa18a",
+    "name": "Don Vito Corleone",
+    "email": "don@example.com",
+    "password": "$8a$12$Jb/DJSHN.ZpnPMu19xfe.NRh5ntE2LzNMNcsty05QWwRbmFFVMKO"
+  }
+]

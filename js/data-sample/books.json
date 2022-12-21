@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "5c88fa8cf4afda39709c2955",
+    "name": "Life is amazing",
+    "author": "Brandon Philip",
+    "genre": "Philosophy",
+    "writenInYear": "2019",
+    "ratingsAverage": 5,
+    "rantingsQuantity": 3,
+    "price": 12,
+    "image": "lifesamazing.jpg"
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2951",
+    "name": "Tragic love",
+    "author": "Cristina Mercedez",
+    "genre": "Romance",
+    "writenInYear": "2020",
+    "ratingsAverage": 4.3,
+    "rantingsQuantity": 9,
+    "price": 10,
+    "image": "tragiclove.jpg"
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c295a",
+    "name": "The Cold War",
+    "author": "Mark Roy",
+    "genre": "History",
+    "writenInYear": "2022",
+    "ratingsAverage": 4.9,
+    "rantingsQuantity": 10,
+    "price": 15,
+    "image": "thecoldwar.jpg"
+  },
+  {
+    "_id": "5c88fa8cf4afda39709c2961",
+    "name": "The android president",
+    "author": "Carl Simon",
+    "genre": "Fiction",
+    "writenInYear": "2013",
+    "ratingsAverage": 4.5,
+    "rantingsQuantity": 26,
+    "price": 9,
+    "image": "thepresidentandroid.jpg"
+  }
+]
