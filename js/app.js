@@ -7,6 +7,7 @@ const booksRouter = require('./routes/books');
 const usersRouter = require('./routes/user');
 const reviewsRouter = require('./routes/review');
 const errorHandler = require('./error/handler');
+const compression = require('compression');
 const Err = require('./error/class');
 const rateLimit = require('express-rate-limit');
 const helmet = require('helmet');
@@ -67,6 +68,9 @@ app.use(
     ],
   })
 );
+
+// Compress all text sent to client (only text)
+app.use(compression());
 
 // Routes
 app.get('/', (req, res) => {
