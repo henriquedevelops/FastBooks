@@ -74,11 +74,14 @@ exports.requireLogin = catcher(async (req, res, next) => {
 
   if (!token) return next(new Err('Login required', 401));
 
-  const decoded = await promisify(jwt.verify)(token, process.env.JWT_SECRET);
+  const decodedToken = await promisify(jwt.verify)(
+    token,
+    process.env.JWT_SECRET
+  );
 
-  const currentUser = await User.findById(decoded.id);
+  const currentUser = await User.findById(decodedToken.id);
 
-  if (!currentUser || currentUser.changedPasswordAfter(decoded.iat)) {
+  if (!currentUser || currentUser.changedPasswordAfter(decodedToken.iat)) {
     return next(new Err('Login Required', 401));
   }
 
@@ -171,3 +174,4 @@ exports.restrictToAdmin = (req, res, next) => {
 
   next();
 };
+ 
