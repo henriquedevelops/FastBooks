@@ -47,7 +47,9 @@ app.use((req, res, next) => {
   next();
 });
 
-// Body parser, reading data from body into req.body
+/* Parse the incoming requests with JSON payloads 
+into a js object that can be accessed through req.body 
+and limit its size */
 app.use(express.json({ limit: '10kb' }));
 
 // Data sanitization against NoSQL query injection
