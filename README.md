@@ -8,9 +8,7 @@ This is a RESTful API built using Node.js, Express, MongoDB, Mongoose, JWT, and 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 # Prerequisites
-Node.js
-MongoDB
-npm
+Node.js, MongoDB and npm
 
 # Installing
 -Clone the repository to your local machine by running 'git clone https://github.com/henriquebuzon/FastBooks'
