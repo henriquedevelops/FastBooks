@@ -16,8 +16,7 @@ Node.js, MongoDB and npm
 -Install the dependencies running 'npm install'
 
 -Create a .env file in the root of the project and set the following variables:
-MONGO_URI=mongodb://<username>:<password>@<host>:<port>/<database>
-JWT_SECRET=<yoursecret>
+NODE_ENV=development, PORT, DATABASE, DATABASE_PASSWORD, JWT_SECRET, JWT_EXPIRES_IN=100d, JWT_COOKIE_EXPIRES_IN=90, EMAIL_USERNAME=6a1f23923d5f47, EMAIL_PASSWORD=2d8824ec6ca8c0, EMAIL_HOST=smtp.mailtrap.io, EMAIL_PORT=25
   
 -Start the development server by running 'npm start' 
 The API will be running on http://localhost:3000
