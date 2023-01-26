@@ -21,5 +21,31 @@ NODE_ENV=development, PORT, DATABASE, DATABASE_PASSWORD, JWT_SECRET, JWT_EXPIRES
 -Start the development server by running 'npm start' 
 The API will be running on http://localhost:3000
 
+# Endpoints documentation
+Books - https://documenter.getpostman.com/view/24272923/2s8ZDczfHc
+Reviews - https://documenter.getpostman.com/view/24272923/2s8ZDczfN4
+Users - https://documenter.getpostman.com/view/24272923/2s8ZDczfN5
+
+# Built using
+bcrypt
+bcryptjs
+compression
+dotenv
+express-mongo-sanitize
+express-rate-limit
+express
+helmet
+hpp
+jsonwebtoken
+mongoose
+morgan
+nodemailer
+nodemon
+prettier
+pug
+slugify
+validator
+xss-clean
+
 # Author
 Henrique Buzon - https://github.com/henriquebuzon
