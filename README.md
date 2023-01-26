@@ -23,28 +23,48 @@ The API will be running on http://localhost:3000
 
 # Endpoints documentation
 Books - https://documenter.getpostman.com/view/24272923/2s8ZDczfHc
+
 Reviews - https://documenter.getpostman.com/view/24272923/2s8ZDczfN4
+
 Users - https://documenter.getpostman.com/view/24272923/2s8ZDczfN5
 
 # Built using
 bcrypt
+
 bcryptjs
+
 compression
+
 dotenv
+
 express-mongo-sanitize
+
 express-rate-limit
+
 express
+
 helmet
+
 hpp
+
 jsonwebtoken
+
 mongoose
+
 morgan
+
 nodemailer
+
 nodemon
+
 prettier
+
 pug
+
 slugify
+
 validator
+
 xss-clean
 
 # Author
