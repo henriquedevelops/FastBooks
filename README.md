@@ -58,8 +58,6 @@ nodemailer
 
 nodemon
 
-prettier
-
 pug
 
 slugify
