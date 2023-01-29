@@ -2,7 +2,7 @@
 
 My first RESTful API!
 
-This is a RESTful API built using Node.js, Express, MongoDB, Mongoose, JWT, and other Node.js libraries. The API allows for CRUD operations on a MongoDB database, authentication and authorization using bcrypt and JWT, error handling with express and much more. 
+It allows for CRUD operations on a MongoDB database, authentication and authorization using bcrypt and JWT, error handling with express and much more. 
 
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
