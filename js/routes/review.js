@@ -3,7 +3,7 @@ const auth = require('../controllers/auth');
 const review = require('../controllers/review');
 const router = express.Router({ mergeParams: true });
 
-router.use(auth.requireLogin);
+router.use(auth.requireLogin); // Protect all routes below this line
 
 router.route('/').get(review.getQuery).post(review.createOne);
 

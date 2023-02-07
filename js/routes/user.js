@@ -8,10 +8,11 @@ router.post('/login', auth.login);
 router.post('/forgotPassword', auth.forgotPassword);
 router.post('/resetPassword/:token', auth.resetPassword);
 
-router.use(auth.requireLogin); // Protect all next routes
+router.use(auth.requireLogin); // Protect all routes below this line
 
 router.route('/').get(user.getQuery);
 router.get('/getMyAccount', user.setUserId, user.getOne);
+router.get('/logout', auth.logout);
 router.post('/updateMyPassword', auth.updateMyPassword);
 router.patch('/updateMyAccount', user.updateMyAccount);
 router.delete('/deleteMyAccount', user.deleteMyAccount);
