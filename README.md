@@ -1,8 +1,6 @@
 # FastBooks API
 
-My first RESTful API!
-
-This very easy to scale API performs CRUD operations in a mongoDB database. I used mongoose for data modelling, jwt for authorization, bcrypt for authentication, express.js for error handling and much more.
+This REST API performs CRUD operations in a mongoDB database. I used mongoose for data modelling, jwt for authorization, bcrypt for authentication, express.js for error handling and much more.
 
 # Getting Started
 
